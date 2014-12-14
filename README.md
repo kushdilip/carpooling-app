@@ -1,7 +1,7 @@
 # Carpooling
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This prototype app was developed by our team at Ember.js Hackathon conducted at Artoo.
+Though functionlities are not complete, the application shows a working web app created using Ember-CLI. 
 
 ## Prerequisites
 
