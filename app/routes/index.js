@@ -2,7 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
 
-	model: function () {
-		return this.store.find("car");
+	enter: function () {
+		this.transitionTo("riders");
 	}
+
 });

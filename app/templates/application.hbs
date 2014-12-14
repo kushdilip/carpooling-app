@@ -1,13 +1,16 @@
-<h2 id='title'>Welcome Car Pooling</h2>
-
-<nav class="navbar navbar-nav" role="navigation">
-<ul class="nav navbar-nav">
-{{#link-to 'riders' tagname='li'}}
-	Rider
-{{/link-to}}
-{{#link-to 'owners' tagname='li'}}
-	Owner
-{{/link-to}}
-</ul>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="navbar-header">
+      <a class="navbar-brand" href="#">Car Pooling</a>
+   </div>
+	<div>
+		<ul class="nav navbar-nav">
+		{{#link-to 'riders' tagName='li'}}
+			<a href="#">Rider</a>
+		{{/link-to}}
+		{{#link-to 'owners' tagName='li'}}
+			<a href="#">Owner</a>
+		{{/link-to}}
+		</ul>
+	</div>
 </nav>
 {{outlet}}

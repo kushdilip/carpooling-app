@@ -9,11 +9,13 @@ export default Ember.ArrayController.extend({
 			return car.get("id") === selectedCarId;
 		})[0];
 
-		if(selectedCar) return selectedCar
+		if(selectedCar) {
+			return selectedCar;
+		}
 	}.property("selectedCar"),
 
 	isCarSelected: function () {
-		console.log("hello")
+		console.log("hello");
 	}.property("selectedCar"),
 
 	actions: {
