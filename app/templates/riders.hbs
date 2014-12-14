@@ -1,0 +1,25 @@
+<h3>Rides Available</h3>	
+
+<h4>You selected Car {{selectedCarObj.name}}</h4>
+
+<div class="panel">
+	<table class="table table-responsive table-">
+		<thead>
+			<th>#</th>
+			<th>Car Regn #</th>
+			<th>Capacity</th>
+			<th>Occupied</th>
+		</thead>
+		<tbody>
+			{{#each car in model}}		
+				<td>{{radio-button value=car.id checked=selectedCar}}</td>
+				<td>{{car.name}}</td>
+				<td>{{car.capacity}}</td>
+				<td>{{car.occupied}}</td>
+			{{/each}}
+		</tbody>
+	</table>
+			
+</div>
+
+<button class="btn btn-default" {{action 'updateCarPool'}}>Ride It</button>
