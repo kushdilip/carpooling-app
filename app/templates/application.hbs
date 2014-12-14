@@ -1,16 +1,19 @@
-<nav class="navbar navbar-default" role="navigation">
-	<div class="navbar-header">
-      <a class="navbar-brand" href="#">Car Pooling</a>
-   </div>
-	<div>
-		<ul class="nav navbar-nav">
-		{{#link-to 'riders' tagName='li'}}
-			<a href="#">Rider</a>
-		{{/link-to}}
-		{{#link-to 'owners' tagName='li'}}
-			<a href="#">Owner</a>
-		{{/link-to}}
-		</ul>
-	</div>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+	      <a class="navbar-brand" href="#">Car Pooling</a>
+	   </div>
+		<div>
+			<ul class="nav navbar-nav">
+			{{#link-to 'riders' tagName='li'}}
+				<a href="#">Rider</a>
+			{{/link-to}}
+			{{#link-to 'owners' tagName='li'}}
+				<a href="#">Owner</a>
+			{{/link-to}}
+			</ul>
+		</div>
+  	</div>
+
 </nav>
 {{outlet}}

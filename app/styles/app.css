@@ -2,9 +2,4 @@ html, body {
   margin: 20px;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
-	
+body { padding-top: 50px; }
